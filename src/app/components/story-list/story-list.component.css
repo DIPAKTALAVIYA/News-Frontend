@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+  
+  .core-container {
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+
+  .card-container {
+    max-width: 100%;
+  }
