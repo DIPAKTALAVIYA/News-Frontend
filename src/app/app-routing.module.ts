@@ -7,7 +7,7 @@ import { StoryListComponent } from './components/story-list/story-list.component
 const routes: Routes = [
   {
     path:'',
-    component:HomeComponent
+    component:StoryListComponent
   },
   {
     path:'home',

@@ -48,6 +48,6 @@ import { MatTableModule} from '@angular/material/table';
     HttpClientModule
   ],
   providers: [LoaderService,{provide:HTTP_INTERCEPTORS, useClass:LoaderInterceptor, multi:true}],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, StoryListComponent]
 })
 export class AppModule { }
